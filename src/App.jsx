@@ -1,11 +1,11 @@
+import Headers from "./sections/Header";
+
 const App = () => {
   return (
     <main className="overflow-hidden">
-      <h1 class="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <Headers />
     </main>
-  )
-}
+  );
+};
 
-export default App
+export default App;
