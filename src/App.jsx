@@ -1,3 +1,4 @@
+import Pricing from "./Pricing";
 import Features from "./sections/Features";
 import Headers from "./sections/Header";
 import Hero from "./sections/Hero";
@@ -8,6 +9,7 @@ const App = () => {
       <Headers />
       <Hero />
       <Features />
+      <Pricing />
     </main>
   );
 };
